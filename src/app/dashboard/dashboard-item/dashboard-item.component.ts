@@ -6,7 +6,10 @@ import { FormsModule } from '@angular/forms';
   standalone: true,
   imports: [FormsModule],
   templateUrl: './dashboard-item.component.html',
-  styleUrl: './dashboard-item.component.css'
+  styleUrl: './dashboard-item.component.css',
+  // host: {
+  //   class: 'dashboard-item'
+  // }
 })
 export class DashboardItemComponent {
 
